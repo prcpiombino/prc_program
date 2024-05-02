@@ -26,7 +26,7 @@ const Program = (props) => {
 
         Vestibulum accumsan augue eget neque fermentum, consectetur volutpat nisi sollicitudin. Integer pretium fermentum pellentesque. Cras nisl lacus, fermentum vitae mattis in, auctor vitae nunc. Curabitur non vulputate sem. Sed turpis sapien, sagittis sollicitudin hendrerit eu, auctor at justo. Fusce in aliquam neque. Aliquam sed viverra libero. Donec a pretium sem. Etiam dapibus condimentum nisl nec pellentesque. Sed suscipit neque vel sapien congue sagittis. </p>
       <Button type="primary" danger>
-        <Link to="/program">Visualizza il programma completo</Link>
+        <Link to="/PRC_Piombino/program">Visualizza il programma completo</Link>
       </Button>
     </div>
   );

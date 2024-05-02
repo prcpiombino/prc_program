@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/PRC_Piombino" element={<Main />} />
-        <Route path="/program" element={<ProgramPage />} />
+        <Route path="/PRC_Piombino/program" element={<ProgramPage />} />
       </Routes>
     </Router>
   );
