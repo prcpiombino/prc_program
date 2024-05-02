@@ -15,7 +15,7 @@ const ProgramPage = (props) => {
   const navigate = useNavigate();
 
   const goBack = () => {
-    navigate('/')
+    navigate('/PRC_Piombino')
   }
 
   return (
