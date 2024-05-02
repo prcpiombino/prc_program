@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.075abd18.css",
-    "main.js": "/static/js/main.7bafb815.js",
+    "main.js": "/static/js/main.73f5af45.js",
     "static/js/453.032cc659.chunk.js": "/static/js/453.032cc659.chunk.js",
     "static/media/fabrizio_callaioli.png": "/static/media/fabrizio_callaioli.e19e1b15e53f18fb6a00.png",
     "index.html": "/index.html",
     "main.075abd18.css.map": "/static/css/main.075abd18.css.map",
-    "main.7bafb815.js.map": "/static/js/main.7bafb815.js.map",
+    "main.73f5af45.js.map": "/static/js/main.73f5af45.js.map",
     "453.032cc659.chunk.js.map": "/static/js/453.032cc659.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075abd18.css",
-    "static/js/main.7bafb815.js"
+    "static/js/main.73f5af45.js"
   ]
 }
