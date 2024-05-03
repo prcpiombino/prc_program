@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Anchor, Carousel, Col, Row } from 'antd';
 
@@ -8,6 +8,26 @@ import Contact from './Contact';
 
 const Main = () => {
 
+  const [screenSize, setScreenSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup function to remove the event listener when the component unmounts
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); 
+  
+  const mobile = screenSize.width < 980
+
   const contentStyle = {
     margin: 0,
     height: '160px',
@@ -16,11 +36,10 @@ const Main = () => {
     textAlign: 'center',
     background: '#364d79',
   }
-
   return (
     <div className="App">
       <Row>
-        <Col span={20}>
+        <Col span={mobile ? 16 : 20}>
           <HomePage
             id="part-1"
             style={{
@@ -43,7 +62,7 @@ const Main = () => {
             }}
           />
         </Col>
-        <Col span={4} className='anchorContainer'>
+        <Col span={mobile ? 8 : 4} className='anchorContainer'>
           <Anchor 
             className='makeItRed'
             items={[

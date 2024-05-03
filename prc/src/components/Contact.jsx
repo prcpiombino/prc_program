@@ -9,6 +9,25 @@ const Contact = (props) => {
       <h2>Contattaci</h2>
       <p>Vuoi far parte della campagna? Scrivici!</p>
       <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
+      <p>INFO</p>
     </div>
   );
 }
