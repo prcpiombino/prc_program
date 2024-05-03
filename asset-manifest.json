@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PRC_Piombino/static/css/main.9357a2ae.css",
-    "main.js": "/PRC_Piombino/static/js/main.8246ca81.js",
+    "main.css": "/PRC_Piombino/static/css/main.9611a011.css",
+    "main.js": "/PRC_Piombino/static/js/main.9b1f3db9.js",
     "static/js/453.032cc659.chunk.js": "/PRC_Piombino/static/js/453.032cc659.chunk.js",
     "static/media/fabrizio_callaioli.png": "/PRC_Piombino/static/media/fabrizio_callaioli.e19e1b15e53f18fb6a00.png",
     "index.html": "/PRC_Piombino/index.html",
-    "main.9357a2ae.css.map": "/PRC_Piombino/static/css/main.9357a2ae.css.map",
-    "main.8246ca81.js.map": "/PRC_Piombino/static/js/main.8246ca81.js.map",
+    "main.9611a011.css.map": "/PRC_Piombino/static/css/main.9611a011.css.map",
+    "main.9b1f3db9.js.map": "/PRC_Piombino/static/js/main.9b1f3db9.js.map",
     "453.032cc659.chunk.js.map": "/PRC_Piombino/static/js/453.032cc659.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9357a2ae.css",
-    "static/js/main.8246ca81.js"
+    "static/css/main.9611a011.css",
+    "static/js/main.9b1f3db9.js"
   ]
 }
