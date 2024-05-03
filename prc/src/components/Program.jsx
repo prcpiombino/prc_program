@@ -13,7 +13,7 @@ const Program = (props) => {
 
   return (
     <div id={props.id} className="homepage">
-      <h2>Programma</h2>
+      <h2 className='programTitle'>Programma</h2>
       <p className='shortProgram'>
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet interdum odio, eu iaculis felis condimentum quis. Pellentesque at iaculis sem, ornare pharetra sem. Nullam consectetur risus et urna eleifend eleifend. Phasellus ornare velit non varius tempus. Praesent auctor dictum erat id ultrices. In hac habitasse platea dictumst. Nulla mattis luctus turpis laoreet auctor. Pellentesque auctor ante turpis. Suspendisse porta diam nec tristique convallis. Cras luctus ligula sit amet leo dictum rutrum. Etiam sem nisl, facilisis et felis sed, gravida molestie diam. Suspendisse potenti. Donec pellentesque nunc tincidunt eros porta, eu auctor orci vestibulum. Vestibulum cursus mi magna, id maximus dui gravida efficitur.
