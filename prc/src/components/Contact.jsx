@@ -29,10 +29,10 @@ const Contact = (props) => {
             <i class="fas fa-envelope"></i> <h3>Scrivici una mail</h3>
             <p><br /><a href="mailto:OrgogliosamenteM5sPrc@gmail.com">OrgogliosamenteM5sPrc@gmail.com</a></p>
           </div>
-          <div class="method">
+          {/* <div class="method">
             <i class="fas fa-phone"></i> <h3>Chiamaci</h3>
             <p><br /><a href="tel:+39 339 410 8008">(+39) 339 410 8008</a></p>
-          </div>
+          </div> */}
           <div class="method">
             <i class="fas fa-map-marker-alt"></i> <h3>Vieni a trovarci</h3>
             <p><br /><a href="https://www.openstreetmap.org/?mlat=42.92552&amp;mlon=10.53010#map=19/42.92552/10.53010">Ci troviamo in: Via Marco Polo 4a</a></p>
