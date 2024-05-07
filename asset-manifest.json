@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PRC_Piombino/static/css/main.501576bc.css",
-    "main.js": "/PRC_Piombino/static/js/main.eea23215.js",
+    "main.css": "/PRC_Piombino/static/css/main.c1c76d20.css",
+    "main.js": "/PRC_Piombino/static/js/main.345da980.js",
     "static/js/453.032cc659.chunk.js": "/PRC_Piombino/static/js/453.032cc659.chunk.js",
     "static/media/fabrizio_callaioli.png": "/PRC_Piombino/static/media/fabrizio_callaioli.6f034688810bd4abc663.png",
     "static/media/Rifondazione_Comunista.png": "/PRC_Piombino/static/media/Rifondazione_Comunista.0df86ab1c2c7d17cb3da.png",
     "static/media/M5S_logo_2050.png": "/PRC_Piombino/static/media/M5S_logo_2050.2b10c43a0891dc870c7d.png",
     "index.html": "/PRC_Piombino/index.html",
-    "main.501576bc.css.map": "/PRC_Piombino/static/css/main.501576bc.css.map",
-    "main.eea23215.js.map": "/PRC_Piombino/static/js/main.eea23215.js.map",
+    "main.c1c76d20.css.map": "/PRC_Piombino/static/css/main.c1c76d20.css.map",
+    "main.345da980.js.map": "/PRC_Piombino/static/js/main.345da980.js.map",
     "453.032cc659.chunk.js.map": "/PRC_Piombino/static/js/453.032cc659.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.501576bc.css",
-    "static/js/main.eea23215.js"
+    "static/css/main.c1c76d20.css",
+    "static/js/main.345da980.js"
   ]
 }
