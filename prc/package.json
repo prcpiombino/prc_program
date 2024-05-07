@@ -1,7 +1,7 @@
 {
   "name": "prc",
   "version": "0.1.0",
-  "homepage": "https://danilocappelletti.github.io/PRC_Piombino/program",
+  "homepage": "https://danilocappelletti.github.io/PRC_Piombino/program/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
