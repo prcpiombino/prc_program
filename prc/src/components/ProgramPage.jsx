@@ -4,13 +4,13 @@ import { useNavigate } from 'react-router-dom';
 import { Button, Collapse, Divider } from 'antd';
 import { LeftCircleOutlined } from '@ant-design/icons';
 
-import './HomePage.css';
+import './HomePage.scss';
 
 const ProgramPage = (props) => {
 
-  const openPage = () => {
-    console.log('test')
-  }
+//   const openPage = () => {
+//     console.log('test')
+//   }
   
   const navigate = useNavigate();
 

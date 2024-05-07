@@ -39,13 +39,14 @@ const Main = () => {
   return (
     <div className="App">
       <Row>
-        <Col span={mobile ? 16 : 20}>
+        <Col span={mobile ? 18 : 20}>
           <HomePage
             id="part-1"
             style={{
               height: '100vh',
               background: 'rgba(255,0,0,0.02)',
             }}
+            mobile = {mobile}
           />
           <Program
             id="part-2"
@@ -62,9 +63,8 @@ const Main = () => {
             }}
           />
         </Col>
-        <Col span={mobile ? 8 : 4} className='anchorContainer'>
-          <Anchor 
-            className='makeItRed'
+        <Col span={mobile ? 6 : 4} className='anchorContainer'>
+          <Anchor
             items={[
               {
                 key: 'part-1',
