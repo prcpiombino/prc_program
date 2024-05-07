@@ -16,10 +16,30 @@
   }
 
   h2 {
-    color: #e50914;
-    /* Communist red */
+    color: #e50914; /* Communist red */
+    font-size: 30px;
+    padding-bottom: 5%;
   }
-
+  .quote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #e50914;
+    padding: 20px;
+    margin: 20px 0;
+  
+    p {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  
+    cite {
+      display: block;
+      font-size: 1rem;
+      text-align: right;
+      color: #666;
+    }
+  }
+  
   .communist-header {
     background-color: #e50914;
     /* Communist red */
@@ -66,7 +86,14 @@
   }
 
   .shortProgram {
-    padding: 5dvh;
+    margin: 5dvh 30dvh;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+    text-justify: inter-word;
+    border: 5px solid #e50914;
+    border-radius: 5px;
   }
 
   .person-description {
@@ -89,6 +116,9 @@
   .person-description-container {
     display: flex;
     flex-direction: column;
+  }
+  .map{
+    margin-bottom: -100px;
   }
 }
 
@@ -134,6 +164,7 @@ nav {
   background-position: center;
   padding: 50px 0;
   color: #fff;
+  border: 4px solid #ff9900;
   /* White text */
   text-align: center;
   border-radius: 15px 15px 0 0;
@@ -157,6 +188,13 @@ nav {
       margin: 0 20px;
       text-align: center;
       transition: transform 0.3s ease;
+      a{
+        color:#ff9900;
+      }
+      a:hover{
+        color:#fff;
+        opacity:0.8;
+      }
       /* Add hover effect */
 
       &:hover {
@@ -243,7 +281,6 @@ nav {
         padding-left: 0;
       }
     }
-
     .bio {
       display: flex;
       flex-direction: column;
@@ -256,7 +293,13 @@ nav {
     }
 
     .shortProgram {
-      padding: 1dvh;
+      margin: 5dvh 5dvh;
+      padding: 10px;
+      font-size: 10px;
+      font-weight: 300;
+      text-align: center;
+      border: 5px solid #e50914;
+      border-radius: 5px;
     }
   }
 

@@ -14,20 +14,27 @@ const Program = (props) => {
   return (
     <div id={props.id} className="homepage margin-top">
       <h2>Programma</h2>
-      <p className='shortProgram'>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet interdum odio, eu iaculis felis condimentum quis. Pellentesque at iaculis sem, ornare pharetra sem. Nullam consectetur risus et urna eleifend eleifend. Phasellus ornare velit non varius tempus. Praesent auctor dictum erat id ultrices. In hac habitasse platea dictumst. Nulla mattis luctus turpis laoreet auctor. Pellentesque auctor ante turpis. Suspendisse porta diam nec tristique convallis. Cras luctus ligula sit amet leo dictum rutrum. Etiam sem nisl, facilisis et felis sed, gravida molestie diam. Suspendisse potenti. Donec pellentesque nunc tincidunt eros porta, eu auctor orci vestibulum. Vestibulum cursus mi magna, id maximus dui gravida efficitur.
-
-        Nunc fringilla diam justo, porttitor cursus ante dignissim id. Donec efficitur turpis eu luctus maximus. Aliquam vel ligula erat. Donec elit tellus, ornare faucibus tellus ornare, accumsan feugiat erat. Donec varius ligula non ex pharetra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc molestie maximus sem non blandit. Sed sit amet risus turpis. Aliquam dignissim malesuada massa. Maecenas nibh ipsum, vestibulum id magna eget, suscipit pretium metus. Aliquam placerat ipsum consequat velit pharetra, ut pellentesque orci posuere. Suspendisse hendrerit quam eu erat rhoncus, vestibulum mollis purus sodales. Proin efficitur enim quis fermentum convallis. Quisque ut augue vel orci rhoncus porttitor.
-
-        Etiam a tellus ante. Nam ultricies nunc non mollis rutrum. Sed sit amet massa pulvinar, aliquam nunc sed, malesuada ligula. Integer vulputate at odio a tincidunt. Aliquam eu feugiat nunc. Integer molestie, arcu et mollis congue, nibh orci pretium massa, vel efficitur nulla dolor et nisl. Proin tincidunt pretium mattis. Mauris ipsum nisl, elementum vitae ullamcorper nec, fringilla sit amet ex. Donec pretium pharetra libero, at imperdiet lorem condimentum accumsan. Nullam in bibendum diam. Sed quis suscipit dui. Nunc semper mattis pellentesque. Etiam leo augue, blandit et justo non, porttitor porttitor leo. Donec scelerisque orci quis purus aliquet condimentum.
-
-        Nunc maximus bibendum ligula, a porta orci volutpat et. Pellentesque elementum ornare augue, ac facilisis nibh eleifend nec. Donec posuere mi ac tortor viverra finibus. Aenean aliquet nisi nibh, at vestibulum lorem hendrerit vitae. Morbi sit amet lectus tristique, aliquam elit a, bibendum est. Curabitur justo lectus, pretium tincidunt leo eget, pretium ullamcorper ante. Integer suscipit egestas sem id luctus. Maecenas malesuada vehicula ex, eget tincidunt mauris egestas vel. Maecenas urna purus, tincidunt vitae fringilla non, suscipit fermentum sem. Sed lacinia, arcu eu cursus efficitur, quam tellus malesuada diam, eu blandit mauris diam ac purus.
-
-        Vestibulum accumsan augue eget neque fermentum, consectetur volutpat nisi sollicitudin. Integer pretium fermentum pellentesque. Cras nisl lacus, fermentum vitae mattis in, auctor vitae nunc. Curabitur non vulputate sem. Sed turpis sapien, sagittis sollicitudin hendrerit eu, auctor at justo. Fusce in aliquam neque. Aliquam sed viverra libero. Donec a pretium sem. Etiam dapibus condimentum nisl nec pellentesque. Sed suscipit neque vel sapien congue sagittis. </p>
-      <Button type="primary" danger>
+      <Button size={'large'} type="primary" danger>
         <Link to="/PRC_Piombino/program">Visualizza il programma completo</Link>
       </Button>
+      <p className='shortProgram'>
+        Votare la coalizione di Rifondazione Comunista e del Movimento 5 Stelle alle elezioni amministrative di Piombino è un atto di coraggio e di fiducia nel futuro della nostra comunità.
+
+        Una scelta 'rivoluzionaria' perché per la prima volta cerca di riportare nel palazzo del comune il luogo delle decisioni cruciali per questa città.
+        Non più scelte calate dall'alto - da Roma o da Firenze - ma condivise dalla città.
+        Ma non solo.
+        Chi sceglie la nostra coalizione sceglie di promuovere una politica improntata alla rimozione le diseguaglianze sociali e alla promozione benessere di tutti i cittadini. Un benessere che si misura con la qualità dei servizi, dell'ambiente e dell'offerta culturale. Chi sceglie noi, sceglie di sostenere una nostra coalizione che si impegna a garantire servizi pubblici di qualità, accessibili a tutti, e a promuovere l'equità sociale e di genere attraverso politiche di inclusione e di redistribuzione delle risorse.
+        Chi sceglie noi, sceglie di sostenere una coalizione che vuol prestare voce ai problemi dell'ambiente, alla tutela del territorio e delle sue risorse naturali.
+        Chi sceglie di sostenere noi, sceglie una coalizione che promuove la democrazia partecipativa e l'apertura alla diversità, promuovendo un dialogo costante con i cittadini e valorizzando le loro voci e le loro esigenze.
+        Ma soprattutto chi sceglie di sostenerci sceglierà il contrasto ad ogni forma di discriminazione e a promuovere i valori di solidarietà, giustizia e dignità per tutti i membri della comunità cittadina.
+
+        Sanità, lavoro, istruzione, ambiente, spiagge pubbliche e mobilità sono i temi su cui puntiamo!
+        Perché Piombino smetta di essere "un'isola" e torni finalmente collegata al continente.
+        Una città di nuovo protagonista della Val di Cornia, della Toscana e dell'Italia intera!
+      </p>
+      <blockquote class="quote">
+        <p>Perché 'Io' torni orgogliosamente a pronunciarsi 'Noi'</p>
+      </blockquote>
     </div>
   );
 }

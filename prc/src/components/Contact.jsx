@@ -13,19 +13,17 @@ const Contact = (props) => {
       <h2>Contattaci</h2>
       <p>Vuoi far parte della campagna? Scrivici!</p>
       <Button type="primary" icon={<SearchOutlined />} style={{margin:"20px"}}>
-        <a target="_blank" className='btn' href="https://www.openstreetmap.org/?mlat=42.92552&amp;mlon=10.53010#map=19/42.92552/10.53010">Visualizza mappa ingrandita</a>
+        <a target="_blank" rel="noreferrer" className='btn' href="https://www.openstreetmap.org/?mlat=42.92552&amp;mlon=10.53010#map=19/42.92552/10.53010">Visualizza mappa ingrandita</a>
       </Button>
       <iframe
         title='map'
-        width="1125"
-        height="550"
+        className='map'
+        width={`${props.mobile ? 300 : 1125}`}
+        height={`${props.mobile ? 300 : 550}`}
         src="https://www.openstreetmap.org/export/embed.html?bbox=10.527469217777254%2C42.92429299912031%2C10.532726347446442%2C42.92675195172321&amp;layer=mapnik&amp;marker=42.92552248769084%2C10.530097782611847"
         style={{ border: "2px solid red" }}>
       </iframe>
       <section class="contact-us">
-        <h3>Contattaci!</h3>
-        <p>Siamo lieti di ascoltarvi. Condividete i vostri pensieri, le vostre domande o lasciatevi coinvolgere per fare la differenza.</p>
-
         <div class="contact-methods">
           <div class="method">
             <i class="fas fa-envelope"></i> <h3>Scrivici una mail</h3>
