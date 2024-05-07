@@ -78,7 +78,7 @@ const ProgramPage = (props) => {
                     items={[
                         {
                             key: '1',
-                            label: 'Intro Turismo',
+                            label: 'Introduzione Turismo',
                             children: <p>Piombino, con le sue radici etrusche profonde e la sua storia del  lavoro legata a Populonia, si distingue come una destinazione unica nel panorama turistico italiano.
                                 Negli ultimi anni, la città ha saputo coniugare la sua ricca eredità storica con la bellezza dei suoi paesaggi, attirando visitatori da tutto il paese. Tuttavia, nonostante il crescente afflusso turistico, Piombino si trova di fronte alla sfida di diversificare l'economia locale per creare opportunità di lavoro sostenibili.
                                 Creare una sinergia virtuosa tra l'attività turistica e quella manifatturiera a Piombino rappresenta un obiettivo primario per garantire lo sviluppo sostenibile della città. È fondamentale adottare una concezione di turismo che rispetti l'ambiente naturale e antropico locale, evitando pratiche di sfruttamento e cementificazione incontrollata.

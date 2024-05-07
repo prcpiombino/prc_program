@@ -214,6 +214,10 @@ nav {
     }
   }
 
+  .ant-divider-inner-text{
+    font-size: 60px;
+  }
+  
   .social-media {
     margin-top: 40px;
 
@@ -221,6 +225,7 @@ nav {
       font-size: 1.2rem;
       margin-bottom: 10px;
     }
+
 
     ul {
       display: flex;
@@ -230,7 +235,6 @@ nav {
 
       li {
         margin: 0 10px;
-
         a {
           font-size: 2rem;
           color: #fff;
