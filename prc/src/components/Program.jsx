@@ -14,7 +14,7 @@ const Program = (props) => {
   return (
     <div id={props.id} className="homepage margin-top">
       <h2>Programma</h2>
-      <Button size={'large'} type="primary" danger>
+      <Button style={{fontSize:'30px', height:'100px'}}size={'large'} type="primary" danger>
         <Link to="/PRC_Piombino/program">Visualizza il programma completo</Link>
       </Button>
       <p className='shortProgram'>
@@ -32,9 +32,6 @@ const Program = (props) => {
         Perché Piombino smetta di essere "un'isola" e torni finalmente collegata al continente.
         Una città di nuovo protagonista della Val di Cornia, della Toscana e dell'Italia intera!
       </p>
-      <blockquote class="quote">
-        <p>Perché 'Io' torni orgogliosamente a pronunciarsi 'Noi'</p>
-      </blockquote>
     </div>
   );
 }

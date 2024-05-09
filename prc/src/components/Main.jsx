@@ -26,7 +26,7 @@ const Main = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []); 
   
-  const mobile = screenSize.width < 980
+  const mobile = screenSize.width < 1580
 
   // const contentStyle = {
   //   margin: 0,
