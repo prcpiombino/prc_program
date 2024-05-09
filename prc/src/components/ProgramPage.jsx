@@ -15,14 +15,14 @@ const ProgramPage = (props) => {
     const navigate = useNavigate();
 
     const goBack = () => {
-        navigate('/PRC_Piombino')
+        navigate('/PRC_Piombino/home')
     }
 
     return (
         <div id={props.id} className="homepage">
             <header className="communist-header">
                 <Button type="primary" danger shape="round" icon={<LeftCircleOutlined />} size={'large'} onClick={() => { goBack() }}>
-                    Torna alla homepage
+                    Vai alla homepage
                 </Button>
                 <h1>Fabrizio Callaioli</h1>
                 <p>Candidato sindaco di Piombino per la coalizione PRC - M5S</p>
@@ -1942,7 +1942,6 @@ const ProgramPage = (props) => {
                             Nella nostra visione, nessun alunno deve essere abbandonato o non supportato, in quanto crediamo
                             nell’equità più che nell’uguaglianza. Ogni persona deve essere messa in grado di sviluppare le proprie
                             capacità, conoscenze e competenze, e deve essere messa nelle condizioni più adatte a farlo in base alle
-                            40
                             proprie condizioni ed attitudini, in modo peculiare e specifico. E per farlo è necessario attivare tutte le
                             risorse necessarie.
                             Per la nostra coalizione la Scuola dovrebbe essere uno dei fulcri centrali per le azioni di governo di una

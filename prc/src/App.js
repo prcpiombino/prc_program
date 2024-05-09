@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/PRC_Piombino" element={<Main />} />
-        <Route path="/PRC_Piombino/program" element={<ProgramPage />} />
+        <Route path="/PRC_Piombino" element={<ProgramPage />} />
+        <Route path="/PRC_Piombino/home" element={<Main />} />
       </Routes>
     </Router>
   );

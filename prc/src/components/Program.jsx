@@ -15,7 +15,7 @@ const Program = (props) => {
     <div id={props.id} className="homepage margin-top">
       <h2>Programma</h2>
       <Button style={{fontSize:'30px', height:'100px'}}size={'large'} type="primary" danger>
-        <Link to="/PRC_Piombino/program">Visualizza il programma completo</Link>
+        <Link to="/PRC_Piombino">Visualizza il programma completo</Link>
       </Button>
       <p className='shortProgram'>
         Votare la coalizione di Rifondazione Comunista e del Movimento 5 Stelle alle elezioni amministrative di Piombino è un atto di coraggio e di fiducia nel futuro della nostra comunità.
