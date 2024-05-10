@@ -8,9 +8,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/prc_program" element={<ProgramPage />}>
-          <Route path="home" element={<Main />} />
-        </Route>
+        <Route path="/prc_program" element={<ProgramPage />} />
+        <Route path="/prc_program/home" element={<Main />} />
       </Routes>
     </Router>
   );
