@@ -131,7 +131,7 @@ const ProgramPage = (props) => {
                         },
                         {
                             key: '2',
-                            label: 'OSPEDALE',
+                            label: 'Ospedale',
                             children: <p><strong>Pronto Soccorso</strong>
                                 <br />
                                 Il Pronto Soccorso rappresenta il punto cruciale di un presidio ospedaliero e per questo sarà necessario
@@ -372,7 +372,7 @@ const ProgramPage = (props) => {
                         },
                         {
                             key: '3',
-                            label: 'SANITA’ TERRITORIALE',
+                            label: 'Sanità territoriale',
                             children: <p>Al fine di provvedere ad una migliore tutela della sanità pubblica, non si può che partire da una
                                 riorganizzazione della Medicina Territoriale, prima porta d'accesso del cittadino e primo recettore dei suoi
                                 bisogni, tanto più che la carenza delle figure professionali, mediche e paramediche, ha acuito quelle
