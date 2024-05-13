@@ -27,7 +27,7 @@ const Contact = (props) => {
         <div class="contact-methods">
           <div class="method">
             <i class="fas fa-envelope"></i> <h3>Scrivici una mail</h3>
-            <p><br /><a href="mailto:OrgogliosamenteM5sPrc@gmail.com">OrgogliosamenteM5sPrc@gmail.com</a></p>
+            <p><br /><a href="mailto:prcpiombino@gmail.com">prcpiombino@gmail.com</a></p>
           </div>
           {/* <div class="method">
             <i class="fas fa-phone"></i> <h3>Chiamaci</h3>

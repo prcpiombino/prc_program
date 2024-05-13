@@ -14,7 +14,7 @@ const Program = (props) => {
   return (
     <div id={props.id} className="homepage margin-top">
       <h2>Programma</h2>
-      <Button style={{fontSize:'30px', height:'100px'}}size={'large'} type="primary" danger>
+      <Button className='programBtn' size={'large'} type="primary" danger>
         <Link to="/prc_program">Visualizza il programma completo</Link>
       </Button>
       <p className='shortProgram'>

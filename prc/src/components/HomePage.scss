@@ -80,6 +80,11 @@
     }
   }
 
+  .programBtn{
+    font-size:30px;
+    height:100px;
+  }
+
   .programTitle {
     margin-top: 12dvh;
   }
@@ -296,7 +301,10 @@ nav {
         height: 48em;
       }
     }
-
+    .programBtn{
+      font-size:15px;
+      height:60px;
+    }
     .shortProgram {
       margin: 5px 5px;
       padding: 10px;
@@ -305,6 +313,10 @@ nav {
       text-align: center;
       border: 5px solid #e50914;
       border-radius: 5px;
+    }
+    .divider{
+      font-size: 25px;
+      white-space: pre-wrap;
     }
   }
 
