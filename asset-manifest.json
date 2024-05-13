@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/prc_program/static/css/main.21978eb2.css",
-    "main.js": "/prc_program/static/js/main.0e63150d.js",
+    "main.css": "/prc_program/static/css/main.7de4cfeb.css",
+    "main.js": "/prc_program/static/js/main.53528d4f.js",
     "static/js/453.032cc659.chunk.js": "/prc_program/static/js/453.032cc659.chunk.js",
     "static/media/fabrizio_callaioli.png": "/prc_program/static/media/fabrizio_callaioli.6f034688810bd4abc663.png",
     "static/media/Rifondazione_Comunista.png": "/prc_program/static/media/Rifondazione_Comunista.0df86ab1c2c7d17cb3da.png",
     "static/media/M5S_logo_2050.png": "/prc_program/static/media/M5S_logo_2050.2b10c43a0891dc870c7d.png",
     "index.html": "/prc_program/index.html",
-    "main.21978eb2.css.map": "/prc_program/static/css/main.21978eb2.css.map",
-    "main.0e63150d.js.map": "/prc_program/static/js/main.0e63150d.js.map",
+    "main.7de4cfeb.css.map": "/prc_program/static/css/main.7de4cfeb.css.map",
+    "main.53528d4f.js.map": "/prc_program/static/js/main.53528d4f.js.map",
     "453.032cc659.chunk.js.map": "/prc_program/static/js/453.032cc659.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21978eb2.css",
-    "static/js/main.0e63150d.js"
+    "static/css/main.7de4cfeb.css",
+    "static/js/main.53528d4f.js"
   ]
 }
